@@ -1,0 +1,18 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 600px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+  padding: 15px;
+}
+
+.cardText {
+  margin-top: 50px;
+  text-align: left;
+}

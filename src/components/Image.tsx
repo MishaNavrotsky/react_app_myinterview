@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Skeleton from 'react-loading-skeleton'
+import Skeleton from 'react-loading-skeleton';
 
 
 export default function Image(props: React.DetailedHTMLProps<React.ImgHTMLAttributes<HTMLImageElement>, HTMLImageElement> & { skeletonLinesCount?: number, skeletonHeight?: string | number, skeletonWidth?: string | number }) {
